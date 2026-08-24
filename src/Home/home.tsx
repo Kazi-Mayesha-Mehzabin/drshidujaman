@@ -13,6 +13,7 @@ import g04 from "../assets/bg1About.avif";
 import g05 from "../assets/ka.avif";
 import g06 from "../assets/robot3.jpg";
 import tr from "../assets/tr.png";
+import robot2 from "../assets/robot2.jpg";
 
 const GALLERY = [
   { src: g01, alt: "Social robot interaction study", label: "Interaction study" },
@@ -128,7 +129,8 @@ export default function ShidujamanLanding({ team = DEFAULT_TEAM }: ShidujamanLan
             </p>
             <div style={{ margin: "36px 0 0", display: "flex", flexWrap: "wrap", gap: 12, alignItems: "center" }}>
               <button type="button" onClick={() => setModalOpen(true)} className="sj-btn" style={{ minWidth: 178 }}>
-                Read more <span style={{ fontSize: 13 }}>→</span>
+                Read more <span style
+                ={{ fontSize: 13 }}>→</span>
               </button>
               <a href="#research" className="sj-btn" style={{ minWidth: 178 }}>Research focus <span>→</span></a>
             </div>
@@ -315,7 +317,7 @@ export default function ShidujamanLanding({ team = DEFAULT_TEAM }: ShidujamanLan
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(280px,1fr))" }}>
               <div className="sj-modal-col sj-modal-col--tint">
                 <div className="sj-modal-photo">
-                  <img src="/src/assets/robot2.jpg" alt="Dr. Mohammad Shidujaman" style={{ width: "100%", aspectRatio: "6 / 5", objectFit: "contain", display: "block" }} />
+                  <img src={robot2} alt="Dr. Mohammad Shidujaman" style={{ width: "100%", aspectRatio: "6 / 5", objectFit: "contain", display: "block" }} />
                 </div>
                 <div style={{ marginTop: 24 }}>
                   <div className="sj-mono-label">Profession</div>
