@@ -1,4 +1,4 @@
-import female from "../assets/female.png";
+
 import student from "../assets/student2.png";
 import student2 from "../assets/female.png";
 import test from "../assets/test.png";
