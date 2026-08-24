@@ -1,5 +1,6 @@
 import { CSS, DEFAULT_TEAM } from "../shared/site";
 import { Footer, Header, PageHero, Slot } from "../shared/Layout";
+import sir from "../assets/sir.png";
 
 export default function Lab() {
   return (
@@ -18,7 +19,7 @@ export default function Lab() {
           <div style={{ position: "absolute", inset: -18, borderRadius: "50%", background: "linear-gradient(150deg,rgba(94,205,224,.22),rgba(32,178,166,.12))" }} />
           <div style={{ position: "relative", padding: 10, borderRadius: "50%", background: "#fff", border: "1px solid rgba(14,105,140,.12)", boxShadow: "0 26px 54px rgba(16,92,120,.16)" }}>
             <div style={{ borderRadius: "50%", overflow: "hidden", aspectRatio: "1 / 1", width: "100%" }}>
-              <img src="/src/assets/sir.png" alt="Dr. Mohammad Shidujaman" style={{ width: "100%", height: "100%", objectFit: "contain", display: "block" }} />
+              <img src={sir} alt="Dr. Mohammad Shidujaman" style={{ width: "100%", height: "100%", objectFit: "contain", display: "block" }} />
             </div>
           </div>
           <div style={{ position: "absolute", left: "50%", bottom: -14, transform: "translateX(-50%)", whiteSpace: "nowrap", padding: "8px 16px", borderRadius: 999, background: "#fff", border: "1px solid rgba(14,105,140,.12)", boxShadow: "0 12px 26px rgba(16,92,120,.12)", fontFamily: "var(--mono)", fontSize: 10.5, letterSpacing: ".12em", textTransform: "uppercase", color: "#2b7f96" }}>Supervisor</div>
