@@ -142,7 +142,7 @@ export default function ShidujamanLanding({ team = DEFAULT_TEAM }: ShidujamanLan
                 radial-gradient(48% 55% at 50% 100%, rgba(255,177,110,.32) 0%, transparent 70%)`,
             }} />
             <div className="sj-hero-frame">
-              <img src="/src/assets/tr.png" alt="Dr. Mohammad Shidujaman" style={{ width: "100%", height: "100%", objectFit: "contain", display: "block" }} />
+              <img src={sir} alt="Dr. Mohammad Shidujaman" style={{ width: "100%", height: "100%", objectFit: "contain", display: "block" }} />
             </div>
             <div style={{ position: "relative", zIndex: 1, marginTop: 16, display: "flex", alignItems: "center", justifyContent: "space-between", gap: 16, fontFamily: MONO, fontSize: 10.5, letterSpacing: ".12em", textTransform: "uppercase", color: "#7ba6b3" }}>
               <span>Social robotics &amp; HRI</span>
