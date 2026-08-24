@@ -12,7 +12,7 @@ import g03 from "../assets/index1.avif";
 import g04 from "../assets/bg1About.avif";
 import g05 from "../assets/ka.avif";
 import g06 from "../assets/robot3.jpg";
-import sir from "../assets/sir.png";
+import sir from "../assets/sir.jpg";
 
 const GALLERY = [
   { src: g01, alt: "Social robot interaction study", label: "Interaction study" },
