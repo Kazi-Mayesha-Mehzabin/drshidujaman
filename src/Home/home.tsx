@@ -12,7 +12,7 @@ import g03 from "../assets/index1.avif";
 import g04 from "../assets/bg1About.avif";
 import g05 from "../assets/ka.avif";
 import g06 from "../assets/robot3.jpg";
-import sir from "../assets/sir.jpg";
+import tr from "../assets/tr.png";
 
 const GALLERY = [
   { src: g01, alt: "Social robot interaction study", label: "Interaction study" },
@@ -142,7 +142,7 @@ export default function ShidujamanLanding({ team = DEFAULT_TEAM }: ShidujamanLan
                 radial-gradient(48% 55% at 50% 100%, rgba(255,177,110,.32) 0%, transparent 70%)`,
             }} />
             <div className="sj-hero-frame">
-              <img src={sir} alt="Dr. Mohammad Shidujaman" style={{ width: "100%", height: "100%", objectFit: "contain", display: "block" }} />
+              <img src={tr} alt="Dr. Mohammad Shidujaman" style={{ width: "100%", height: "100%", objectFit: "contain", display: "block" }} />
             </div>
             <div style={{ position: "relative", zIndex: 1, marginTop: 16, display: "flex", alignItems: "center", justifyContent: "space-between", gap: 16, fontFamily: MONO, fontSize: 10.5, letterSpacing: ".12em", textTransform: "uppercase", color: "#7ba6b3" }}>
               <span>Social robotics &amp; HRI</span>
@@ -237,7 +237,7 @@ export default function ShidujamanLanding({ team = DEFAULT_TEAM }: ShidujamanLan
 
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: 20, paddingBottom: "clamp(36px,5vw,64px)", borderBottom: "1px solid rgba(14,105,140,.10)" }}>
           <div style={{ width: "min(220px,60%)", borderRadius: "50%", overflow: "hidden", aspectRatio: "1 / 1", border: "2px solid var(--ink-2)" }}>
-            <img src={sir} alt="Dr. Mohammad Shidujaman" style={{ width: "100%", height: "100%", objectFit: "contain", display: "block" }} />
+            <img src={tr} alt="Dr. Mohammad Shidujaman" style={{ width: "100%", height: "100%", objectFit: "contain", display: "block" }} />
           </div>
           <div>
             <div style={{ fontFamily: MONO, fontSize: 10, letterSpacing: ".14em", textTransform: "uppercase", color: "#2b9cb0" }}>Supervisor</div>
