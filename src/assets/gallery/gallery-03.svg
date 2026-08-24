@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480">
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0e2e3a"/>
+      <stop offset="100%" stop-color="#155a72"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="480" fill="url(#g3)"/>
+  <g stroke="#5fd0dd" stroke-width="1.4" opacity="0.75">
+    <line x1="90" y1="120" x2="240" y2="200"/>
+    <line x1="240" y1="200" x2="390" y2="130"/>
+    <line x1="240" y1="200" x2="180" y2="330"/>
+    <line x1="240" y1="200" x2="330" y2="340"/>
+    <line x1="90" y1="120" x2="180" y2="330"/>
+    <line x1="390" y1="130" x2="330" y2="340"/>
+    <line x1="180" y1="330" x2="330" y2="340"/>
+  </g>
+  <g>
+    <circle cx="90" cy="120" r="10" fill="#eafbff"/>
+    <circle cx="390" cy="130" r="8" fill="#7fe0c9"/>
+    <circle cx="240" cy="200" r="16" fill="#1fb3a4"/>
+    <circle cx="180" cy="330" r="9" fill="#eafbff"/>
+    <circle cx="330" cy="340" r="9" fill="#5fd0dd"/>
+  </g>
+  <text x="34" y="440" font-family="ui-monospace,Consolas,monospace" font-size="12" letter-spacing="2" fill="#bdeef6" opacity="0.7">EXPLAINABLE AI · 03</text>
+</svg>

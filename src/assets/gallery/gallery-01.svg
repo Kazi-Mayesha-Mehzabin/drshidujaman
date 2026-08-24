@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#123c4a"/>
+      <stop offset="55%" stop-color="#166e8c"/>
+      <stop offset="100%" stop-color="#1fb3a4"/>
+    </linearGradient>
+    <radialGradient id="g1glow" cx="50%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="520" fill="url(#g1)"/>
+  <rect width="400" height="520" fill="url(#g1glow)"/>
+  <g opacity="0.14" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="86" x2="400" y2="86"/>
+    <line x1="0" y1="172" x2="400" y2="172"/>
+    <line x1="0" y1="258" x2="400" y2="258"/>
+    <line x1="0" y1="344" x2="400" y2="344"/>
+    <line x1="0" y1="430" x2="400" y2="430"/>
+    <line x1="80" y1="0" x2="80" y2="520"/>
+    <line x1="160" y1="0" x2="160" y2="520"/>
+    <line x1="240" y1="0" x2="240" y2="520"/>
+    <line x1="320" y1="0" x2="320" y2="520"/>
+  </g>
+  <g transform="translate(200,250)">
+    <rect x="-92" y="-70" width="184" height="150" rx="34" fill="none" stroke="#eafbff" stroke-width="3" opacity="0.92"/>
+    <circle cx="-38" cy="-6" r="16" fill="#eafbff"/>
+    <circle cx="38" cy="-6" r="16" fill="#0c2f3a"/>
+    <circle cx="38" cy="-6" r="6" fill="#eafbff"/>
+    <path d="M -36 44 Q 0 68 36 44" stroke="#eafbff" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <line x1="0" y1="-70" x2="0" y2="-108" stroke="#eafbff" stroke-width="3"/>
+    <circle cx="0" cy="-118" r="9" fill="#eafbff"/>
+    <rect x="-118" y="-30" width="20" height="60" rx="10" fill="none" stroke="#eafbff" stroke-width="3" opacity="0.85"/>
+    <rect x="98" y="-30" width="20" height="60" rx="10" fill="none" stroke="#eafbff" stroke-width="3" opacity="0.85"/>
+  </g>
+  <text x="32" y="470" font-family="ui-monospace,Consolas,monospace" font-size="12" letter-spacing="2" fill="#eafbff" opacity="0.55">HRI · 01</text>
+</svg>
